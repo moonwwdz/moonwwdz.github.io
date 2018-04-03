@@ -146,6 +146,49 @@
     <header class="article-header">
         
         <h1 itemprop="name">
+            <a href="/2016/05/24/php-nginx-php-fpm/">nginx使用不同版本php</a>
+        </h1>
+        
+        <div class="article-meta clearfix">
+            <a class="article-date" href="/2016/05/24/php-nginx-php-fpm/">
+    
+    <i class="icon-calendar"></i>
+    
+    <time datetime="2016-05-25T02:29:33.000Z" itemprop="datePublished">2016-05-24</time>
+</a>
+
+            
+<div class="article-tag-list">
+    <i class="icon-tag"></i>
+    <a class="article-tag-link" href="/tags/nginx/">nginx</a>, <a class="article-tag-link" href="/tags/php/">php</a>, <a class="article-tag-link" href="/tags/php-cgi/">php-cgi</a>, <a class="article-tag-link" href="/tags/php-fpm/">php-fpm</a>, <a class="article-tag-link" href="/tags/备忘/">备忘</a>
+</div>
+
+
+        </div>
+    </header>
+    
+    <section class="article-body markdown-body">
+        
+        <p>对php学习的不够，所以平时在自己的vps上捣鼓的时候，总是遇到问题了再解决，今天装这个环境明天装那个环境，时间久了，当初自己怎么想的怎么分配目录的，全给忘的光光。。。<br>今天偶然发现，php的版本不对啊，明明装的是5.6怎么显示的5.4?<br>整了半天才明白，再记录下</p>
+<h1 id="先查环境中的php版本"><a href="#先查环境中的php版本" class="headerlink" title="先查环境中的php版本"></a>先查环境中的php版本</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">whereis php</span><br><span class="line">~ whereis php</span><br><span class="line">php: </span><br><span class="line">/usr/bin/php </span><br><span class="line">/usr/local/bin/php</span><br><span class="line"></span><br><span class="line">~ /usr/bin/php -v</span><br><span class="line">PHP 5.4.45 (cli) (built: Jan 12 2016 18:07:56) </span><br><span class="line">Copyright (c) 1997-2014 The PHP Group</span><br><span class="line">Zend Engine v2.4.0, Copyright (c) 1998-2014 Zend Technologies</span><br><span class="line"></span><br><span class="line">~ /usr/local/bin/php -v</span><br><span class="line">PHP 5.6.7 (cli) (built: Dec 11 2015 15:01:15) </span><br><span class="line">Copyright (c) 1997-2015 The PHP Group</span><br><span class="line">Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies</span><br><span class="line"></span><br><span class="line">~ php -v </span><br><span class="line">PHP 5.6.7 (cli) (built: Dec 11 2015 15:01:15) </span><br><span class="line">Copyright (c) 1997-2015 The PHP Group</span><br><span class="line">Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies</span><br></pre></td></tr></table></figure>
+        
+        <p class="article-more-link">
+            <a href="/2016/05/24/php-nginx-php-fpm/#more">
+                <span class="vm">阅读更多</span>
+                <i class="icon-arrow-double-right vm"></i>    
+            </a>
+        </p>
+        
+        
+    </section>
+</article>
+
+
+    <article class="article" itemscope itemprop="blogPost">
+    
+    <header class="article-header">
+        
+        <h1 itemprop="name">
             <a href="/2016/05/17/ie-js-filesize/">IE8-9检测文件大小</a>
         </h1>
         
@@ -443,48 +486,6 @@
         
         <p class="article-more-link">
             <a href="/2015/08/11/fuelphp-install/#more">
-                <span class="vm">阅读更多</span>
-                <i class="icon-arrow-double-right vm"></i>    
-            </a>
-        </p>
-        
-        
-    </section>
-</article>
-
-
-    <article class="article" itemscope itemprop="blogPost">
-    
-    <header class="article-header">
-        
-        <h1 itemprop="name">
-            <a href="/2015/04/29/install-lapp/">安装lapp记录</a>
-        </h1>
-        
-        <div class="article-meta clearfix">
-            <a class="article-date" href="/2015/04/29/install-lapp/">
-    
-    <i class="icon-calendar"></i>
-    
-    <time datetime="2015-04-30T02:12:43.000Z" itemprop="datePublished">2015-04-29</time>
-</a>
-
-            
-<div class="article-tag-list">
-    <i class="icon-tag"></i>
-    <a class="article-tag-link" href="/tags/php/">php</a>, <a class="article-tag-link" href="/tags/备忘/">备忘</a>
-</div>
-
-
-        </div>
-    </header>
-    
-    <section class="article-body markdown-body">
-        
-        <p>为了要做一个艾宾斯浩记忆的表格帮助自己学习英语，所以打算做一个记忆表格，本来打算用NodeJs来做的，但一想吃饭还是靠的Php，所以就用Php还写了。结果出师未捷，一开始就发现了，原来很简单的一个想法想要实现也要做很多的准备工作，一直都没发现我的环境都从来没有搭建好，Apache,Php,Postgresql都是单独的工作，所以先从环境开始</p>
-        
-        <p class="article-more-link">
-            <a href="/2015/04/29/install-lapp/#more">
                 <span class="vm">阅读更多</span>
                 <i class="icon-arrow-double-right vm"></i>    
             </a>
