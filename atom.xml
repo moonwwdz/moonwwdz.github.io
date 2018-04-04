@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://moonwwdz.github.io/"/>
-  <updated>2018-04-03T08:12:44.350Z</updated>
+  <updated>2018-04-04T06:50:02.350Z</updated>
   <id>http://moonwwdz.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://moonwwdz.github.io/2018/04/03/emacs-keyboard/"/>
     <id>http://moonwwdz.github.io/2018/04/03/emacs-keyboard/</id>
     <published>2018-04-04T08:02:06.000Z</published>
-    <updated>2018-04-03T08:12:44.350Z</updated>
+    <updated>2018-04-04T06:50:02.350Z</updated>
     
     <content type="html"><![CDATA[<p>Emacs 中一些简单的配置,不需要太折腾就可以很好的使用</p><a id="more"></a><h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1><h2 id="Alt快捷键"><a href="#Alt快捷键" class="headerlink" title="Alt快捷键"></a>Alt快捷键</h2><table><thead><tr><th>按键</th><th>作用</th></tr></thead><tbody><tr><td>M-;</td><td>插入目前語言的註解</td></tr><tr><td>M-!</td><td>执行命令</td></tr><tr><td>M-g M-g</td><td>跳到第 N 行</td></tr><tr><td>M-Page Down</td><td>隔壁的 window 向下捲動一頁</td></tr><tr><td>M-Page Up</td><td>隔壁的 window 向上捲動一頁</td></tr><tr><td>M-%</td><td>字串搜尋並取代</td></tr><tr><td>M-l</td><td>單字轉成全小寫</td></tr><tr><td>M-u</td><td>單字轉成全大寫</td></tr><tr><td>M-c</td><td>單字轉首字大寫</td></tr><tr><td>M-t</td><td>前後單字交換</td></tr></tbody></table><p><em>M-% 替换的词会高亮起来，这时，输入y替换并跳到下一个，输入n忽略并跳到下一个，输入q结束，输入！替换剩下的全部</em></p><h2 id="Ctrl-x-快捷键"><a href="#Ctrl-x-快捷键" class="headerlink" title="Ctrl-x 快捷键"></a>Ctrl-x 快捷键</h2><table><thead><tr><th>按键</th><th>作用</th></tr></thead><tbody><tr><td>C-x C-w</td><td>另存新檔</td></tr><tr><td>C-x k</td><td>關掉目前 buffer</td></tr><tr><td>C-x C-←</td><td>切換到上一個 buffer</td></tr><tr><td>C-x C-→</td><td>切換到下一個 buffer</td></tr><tr><td>C-t</td><td>前後字元交換</td></tr><tr><td>C-x C-e</td><td>把游標移動到括弧最尾端後設定就立即生效</td></tr><tr><td>C-c C-e h</td><td>导出org为html</td></tr></tbody></table><h1 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h1><h2 id="包管理"><a href="#包管理" class="headerlink" title="包管理"></a>包管理</h2><p>1.修改引用的包管理器</p><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">;; package.el 相關設定</span></span><br><span class="line">(<span class="name">require</span> 'package)</span><br><span class="line">(<span class="name">package-initialize</span>)</span><br><span class="line">(<span class="name">add-to-list</span> 'package-archives '(<span class="string">"melpa"</span> . <span class="string">"https://melpa.org/packages/"</span>) <span class="literal">t</span>)</span><br><span class="line">(<span class="name">add-to-list</span> 'package-archives '(<span class="string">"melpa-stable"</span> . <span class="string">"http://stable.melpa.org/packages/"</span>) <span class="literal">t</span>)</span><br></pre></td></tr></table></figure><h1 id="Org-mode-文件导出"><a href="#Org-mode-文件导出" class="headerlink" title="Org-mode 文件导出"></a>Org-mode 文件导出</h1><p>头部添加配置<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#+HTML_HEAD: <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"http://moonwwdz.win/emacs-html.css"</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -32,7 +32,7 @@
     </summary>
     
     
-      <category term="linux" scheme="http://moonwwdz.github.io/tags/linux/"/>
+      <category term="emacs" scheme="http://moonwwdz.github.io/tags/emacs/"/>
     
   </entry>
   
@@ -58,9 +58,9 @@
     </summary>
     
     
-      <category term="备忘" scheme="http://moonwwdz.github.io/tags/%E5%A4%87%E5%BF%98/"/>
-    
       <category term="emacs" scheme="http://moonwwdz.github.io/tags/emacs/"/>
+    
+      <category term="备忘" scheme="http://moonwwdz.github.io/tags/%E5%A4%87%E5%BF%98/"/>
     
   </entry>
   
