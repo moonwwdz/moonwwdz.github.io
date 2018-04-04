@@ -37,6 +37,34 @@
   </entry>
   
   <entry>
+    <title>用org-mode发布Hexo内容</title>
+    <link href="http://moonwwdz.github.io/2018/04/02/hexo-with-org-mode/"/>
+    <id>http://moonwwdz.github.io/2018/04/02/hexo-with-org-mode/</id>
+    <published>2018-04-03T09:58:56.000Z</published>
+    <updated>2018-04-04T03:01:32.025Z</updated>
+    
+    <content type="html"><![CDATA[<div id="outline-container-sec-1" class="outline-2"><h2 id="sec-1">安装解析器</h2><div class="outline-text-2" id="text-1"><div class="org-src-container"><figure class="highlight"><table><tr><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-renderer-org</span><br></pre></td></tr></table></figure></div><a id="more"></a></div></div><div id="outline-container-sec-2" class="outline-2"><h2 id="sec-2">配置</h2><div class="outline-text-2" id="text-2"><ul class="org-ul"><li>在 _config.yml 添加以下内容</li></ul><div class="org-src-container"><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">org:</span><br><span class="line">    emacs: 'D:\soft\emacs-25.1-x86_64-w64-mingw32\bin\emacs.exe'</span><br><span class="line">    common: |</span><br><span class="line">#+OPTIONS: toc:nil num:nil</span><br></pre></td></tr></table></figure></div><ul class="org-ul"><li>在 _config.yml 的 *new<sub>post</sub><sub>name</sub>*修改为org文件名</li></ul></div></div><div id="outline-container-sec-3" class="outline-2"><h2 id="sec-3">org-mode 操作</h2><div class="outline-text-2" id="text-3"></div><div id="outline-container-sec-3-1" class="outline-3"><h3 id="sec-3-1">插入引用模板</h3><div class="outline-text-3" id="text-3-1"><p>我们在使用长标签进行输入的时候，会非常的繁琐。我们可以利用一些快捷方式 来创建一个片段的模板。在插入的时候，先输入一个 ‘&lt;’ 然后可以选择一个要 使用的模板缩写，然后按下 &lt;TAB&gt; 键。 模板选择器：</p><pre class="example">s #+begin_src ... #+end_src e #+begin_example ... #+end_exampleq #+begin_quote ... #+end_quote v #+begin_verse ... #+end_verse c #+begin_center ... #+end_center l #+begin_latex ... #+end_latex L #+latex: h #+begin_html ... #+end_html H #+html: a #+begin_ascii ... #+end_ascii A #+ascii: i #+index: line I #+include: line</pre></div></div><div id="outline-container-sec-3-2" class="outline-3"><h3 id="sec-3-2">插入图片</h3><div class="outline-text-3" id="text-3-2"><p>Hexo use `alt` as title of image.</p><div class="org-src-container"><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#+ATTR_HTML:  :alt caption</span><br><span class="line">[[image url]]</span><br></pre></td></tr></table></figure></div></div></div><div id="outline-container-sec-3-3" class="outline-3"><h3 id="sec-3-3">_ 不转义</h3><div class="outline-text-3" id="text-3-3"><p>你可以在一个 org 文件的开头，用下面的设置来关闭这个功能。</p><div class="org-src-container"><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">#+OPTIONS: ^:nil</span><br></pre></td></tr></table></figure></div></div></div></div><p class="date">Date: 2018-04-02 23:58:56</p><p class="date">Created: 2018-04-03 Tue 17:04</p><p class="creator"><a href="http://www.gnu.org/software/emacs/" target="_blank" rel="noopener">Emacs</a> 25.3.1 (<a href="http://orgmode.org" target="_blank" rel="noopener">Org</a> mode 8.2.10)</p><p class="validation"><a href="http://validator.w3.org/check?uri=referer" target="_blank" rel="noopener">Validate</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;安装解析器&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install https://github.com/CodeFalling/hexo-renderer-org&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="备忘" scheme="http://moonwwdz.github.io/tags/%E5%A4%87%E5%BF%98/"/>
+    
+      <category term="emacs" scheme="http://moonwwdz.github.io/tags/emacs/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux Deploy 获取root权限</title>
     <link href="http://moonwwdz.github.io/2018/04/01/deploy-linux-root/"/>
     <id>http://moonwwdz.github.io/2018/04/01/deploy-linux-root/</id>
@@ -560,28 +588,6 @@
     
     
       <category term="Linux" scheme="http://moonwwdz.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql中的一些日常使用</title>
-    <link href="http://moonwwdz.github.io/2015/02/13/mysql-root-passwd/"/>
-    <id>http://moonwwdz.github.io/2015/02/13/mysql-root-passwd/</id>
-    <published>2015-02-14T02:05:33.000Z</published>
-    <updated>2018-04-02T03:10:00.604Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="root密码的修改"><a href="#root密码的修改" class="headerlink" title="root密码的修改"></a>root密码的修改</h2><p>  1 在数据库中修改密码<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysqladmin -uroot -password 123456           //为root指定一个默认的密码，刚开始是“”</span><br><span class="line">mysqladmin -uroot -p123456 password 456789   //修改root的密码</span><br></pre></td></tr></table></figure></p><a id="more"></a><p>  2 在phpmyadmin中修改</p><p> 为超级用户指定了密码后如果不修改phpmyadmin中的设置是连接不上的，要修改程序根目录下的<code>config.inc.php</code>文件，还有<code>libraries/config.default.php</code>文件中的</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash">cfg[<span class="string">'Servers'</span>][<span class="variable">$i</span>][<span class="string">'password'</span>] = <span class="string">'456789'</span></span></span><br></pre></td></tr></table></figure><h2 id="忘记root密码修改"><a href="#忘记root密码修改" class="headerlink" title="忘记root密码修改"></a>忘记root密码修改</h2><p>以windows为例： </p><ol><li><p>关闭正在运行的MySQL服务。 </p></li><li><p>打开DOS窗口，转到mysql\bin目录。 </p></li><li><p>输入mysqld –skip-grant-tables 回车。–skip-grant-tables 的意思是启动MySQL服务的时候跳过权限表认证。 </p></li><li><p>再开一个DOS窗口（因为刚才那个DOS窗口已经不能动了），转到mysql\bin目录。 </p></li><li><p>输入mysql回车，如果成功，将出现MySQL提示符 &gt;。 </p></li><li><p>连接权限数据库： use mysql; 。 </p></li><li><p>改密码：update user set password=password(“123”) where user=”root”;（别忘了最后加分号） 。 </p></li><li><p>刷新权限（必须步骤）：flush privileges;　。 </p></li><li><p>退出 quit。 </p></li><li><p>注销系统，再进入，使用用户名root和刚才设置的新密码123登录。</p></li></ol><h2 id="导入数据"><a href="#导入数据" class="headerlink" title="导入数据"></a>导入数据</h2><p>进入sql的终端,执行：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; source d:/eva.sql</span><br></pre></td></tr></table></figure></p><p>进行导入</p><h2 id="导出数据"><a href="#导出数据" class="headerlink" title="导出数据"></a>导出数据</h2><p>1.导出整个数据库<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -u 用户名 -p 数据库名 &gt; 导出的文件名</span><br><span class="line">mysqldump -u wcnc -p smgp_apps_wcnc &gt; wcnc.sql</span><br></pre></td></tr></table></figure></p><p>2.导出一个表<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -u 用户名 -p 数据库名表名&gt; 导出的文件名</span><br><span class="line">mysqldump -u wcnc -p smgp_apps_wcnc users&gt; wcnc_users.sql</span><br></pre></td></tr></table></figure></p><p>3.导出一个数据库结构<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -u wcnc -p -d <span class="comment">--add-drop-table smgp_apps_wcnc &gt;d:wcnc_db.sql</span></span><br></pre></td></tr></table></figure></p><p><code>-d</code> 没有数据 <code>--add-drop-table</code> 在每个create语句之前增加一个<code>drop table</code></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;root密码的修改&quot;&gt;&lt;a href=&quot;#root密码的修改&quot; class=&quot;headerlink&quot; title=&quot;root密码的修改&quot;&gt;&lt;/a&gt;root密码的修改&lt;/h2&gt;&lt;p&gt;  1 在数据库中修改密码&lt;br&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;mysqladmin -uroot -password 123456           //为root指定一个默认的密码，刚开始是“”&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mysqladmin -uroot -p123456 password 456789   //修改root的密码&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="sql" scheme="http://moonwwdz.github.io/tags/sql/"/>
-    
-      <category term="备忘" scheme="http://moonwwdz.github.io/tags/%E5%A4%87%E5%BF%98/"/>
     
   </entry>
   
