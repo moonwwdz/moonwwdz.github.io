@@ -158,7 +158,7 @@ M-% 替换的词会高亮起来，这时，输入y" />
         
 
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#快捷键"><span class="toc-number">1.</span> <span class="toc-text">快捷键</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Alt快捷键"><span class="toc-number">1.1.</span> <span class="toc-text">Alt快捷键</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ctrl-x-快捷键"><span class="toc-number">1.2.</span> <span class="toc-text">Ctrl-x 快捷键</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#配置文件"><span class="toc-number">2.</span> <span class="toc-text">配置文件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#包管理"><span class="toc-number">2.1.</span> <span class="toc-text">包管理</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Org-mode-文件导出"><span class="toc-number">3.</span> <span class="toc-text">Org-mode 文件导出</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#快捷键"><span class="toc-number">1.</span> <span class="toc-text">快捷键</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Alt快捷键"><span class="toc-number">1.1.</span> <span class="toc-text">Alt快捷键</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ctrl-x-快捷键"><span class="toc-number">1.2.</span> <span class="toc-text">Ctrl-x 快捷键</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#配置文件"><span class="toc-number">2.</span> <span class="toc-text">配置文件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#包管理"><span class="toc-number">2.1.</span> <span class="toc-text">包管理</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Org-mode"><span class="toc-number">3.</span> <span class="toc-text">Org-mode</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#文件导出"><span class="toc-number">3.1.</span> <span class="toc-text">文件导出</span></a></li></ol></li></ol>
         
     </div>
 </aside>
@@ -282,11 +282,16 @@ M-% 替换的词会高亮起来，这时，输入y" />
 <td>C-c C-e h</td>
 <td>导出org为html</td>
 </tr>
+<tr>
+<td>C-‘(单引号)</td>
+<td>编辑引用块中的数据</td>
+</tr>
 </tbody>
 </table>
 <h1 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h1><h2 id="包管理"><a href="#包管理" class="headerlink" title="包管理"></a>包管理</h2><p>1.修改引用的包管理器</p>
 <figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">;; package.el 相關設定</span></span><br><span class="line">(<span class="name">require</span> 'package)</span><br><span class="line">(<span class="name">package-initialize</span>)</span><br><span class="line">(<span class="name">add-to-list</span> 'package-archives '(<span class="string">"melpa"</span> . <span class="string">"https://melpa.org/packages/"</span>) <span class="literal">t</span>)</span><br><span class="line">(<span class="name">add-to-list</span> 'package-archives '(<span class="string">"melpa-stable"</span> . <span class="string">"http://stable.melpa.org/packages/"</span>) <span class="literal">t</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="Org-mode-文件导出"><a href="#Org-mode-文件导出" class="headerlink" title="Org-mode 文件导出"></a>Org-mode 文件导出</h1><p>头部添加配置<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#+HTML_HEAD: <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"http://moonwwdz.win/emacs-html.css"</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="Org-mode"><a href="#Org-mode" class="headerlink" title="Org-mode"></a>Org-mode</h1><h2 id="文件导出"><a href="#文件导出" class="headerlink" title="文件导出"></a>文件导出</h2><p>头部添加配置<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#+HTML_HEAD: <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"http://moonwwdz.win/emacs-html.css"</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>## </p>
 
         
     </section>
