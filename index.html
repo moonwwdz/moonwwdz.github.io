@@ -197,8 +197,6 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
-<li>$:/state/showeditpreview</li>
-
 <li>$:/status/IsAnonymous</li>
 
 <li>$:/status/IsLoggedIn</li>
@@ -717,19 +715,17 @@ Error message and password prompt
 
 {"created":"20221219031048770","creator":"wangc","title":"$:/SiteTitle","modified":"20221219035949192","modifier":"王大大","type":"text/vnd.tiddlywiki","text":"__[[王大大]]__の[[TiddlyWiki]]","bag":"default","revision":"0"},
 
-{"created":"20230428073344092","creator":"王大大","title":"$:/state/showeditpreview","text":"yes","modified":"20230428073344092","modifier":"王大大","revision":"1","bag":"default"},
-
-{"title":"$:/status/IsAnonymous","text":"no","revision":"1","bag":"default"},
+{"title":"$:/status/IsAnonymous","text":"yes","revision":"1","bag":"default"},
 
 {"title":"$:/status/IsLoggedIn","text":"yes","revision":"2","bag":"default"},
 
-{"title":"$:/status/IsReadOnly","text":"no","revision":"1","bag":"default"},
+{"title":"$:/status/IsReadOnly","text":"yes","revision":"1","bag":"default"},
 
 {"title":"$:/status/RequireReloadDueToPluginChange","text":"no","revision":"0","bag":"default"},
 
-{"title":"$:/status/UserName","text":"王大大","revision":"1","bag":"default"},
+{"title":"$:/status/UserName","text":"","revision":"1","bag":"default"},
 
-{"title":"$:/StoryList","text":"","list":"Outline在其他设备上恢复数据 王大大","revision":"7","bag":"default"},
+{"title":"$:/StoryList","text":"","list":"王大大","revision":"1","bag":"default"},
 
 {"created":"20221219033024958","creator":"王大大","title":"$:/theme","text":"$:/themes/tiddlywiki/snowwhite","modified":"20230103101020085","modifier":"王大大","type":"text/vnd.tiddlywiki","bag":"default","revision":"0"},
 
@@ -923,7 +919,7 @@ Error message and password prompt
 
 {"created":"20230418032003979","creator":"王大大","text":"* 安装 `sh -c \"$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"`\n* 使用的配色 `ys`\n* 命令高亮 `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`\n*  提示命令 `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`","tags":"笔记","title":"OhMyZsh","modified":"20230418032200961","modifier":"王大大","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"},
 
-{"created":"20230428073218566","creator":"王大大","text":"使用[docker部署的outline](https://github.com/vicalloy/outline-docker-compose)，如果要换使用的IP，需要修改\n\n1. 配置文件,将文件中的IP全部修改为新IP。\n\t- `./config/uc/fixtures/oidc-server-outline-client.json`\n\t- `./env.oidc`\n\t- `./env.outline`\n\t- `./scripts/config.sh`\n2. 数据库\n\t- 打开数据库`sqlite3 data/uc/db/db.sqlite3`\n\t- 更新数据`update oidc_provider_client set _redirect_uris = 'http://192.168.31.120:48888/auth/oidc.callback';`改为新IP","tags":"","title":"Outline在其他设备上恢复数据","modified":"20230428073509784","modifier":"王大大","type":"text/x-markdown","revision":"2","bag":"default"},
+{"created":"20230428073218566","creator":"王大大","text":"使用[docker部署的outline](https://github.com/vicalloy/outline-docker-compose)，如果要换使用的IP，需要修改\n\n1. 配置文件,将文件中的IP全部修改为新IP。\n\t- `./config/uc/fixtures/oidc-server-outline-client.json`\n\t- `./env.oidc`\n\t- `./env.outline`\n\t- `./scripts/config.sh`\n2. 数据库\n\t- 打开数据库`sqlite3 data/uc/db/db.sqlite3`\n\t- 更新数据`update oidc_provider_client set _redirect_uris = 'http://192.168.31.120:48888/auth/oidc.callback';`改为新IP","tags":"","title":"Outline在其他设备上恢复数据","modified":"20230428073509784","modifier":"王大大","type":"text/x-markdown","revision":"0","bag":"default"},
 
 {"text":"","type":"application/json","tags":"$:/tags/PluginWiki","title":"Plugin_202203220353069","bag":"default","cpl.author":"inmysocks","cpl.core-version":">=5.0.0","cpl.dependents":"","cpl.description":"Theme for mobile devices","cpl.name":"Mobile","cpl.plugin-type":"theme","cpl.readme":"","cpl.title":"$:/themes/inmysocks/Mobile","cpl.uri":"https://ooktech.com/jed/pluginlibrary/stable/recipes/library/tiddlers/%2524%253A%252Fthemes%252Finmysocks%252FMobile.json","revision":"0"},
 
