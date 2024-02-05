@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>知否</title><link>https://moonwwdz.github.io/</link><description>Recent content on 知否</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 11 Mar 2023 11:43:49 +0800</lastBuildDate><atom:link href="https://moonwwdz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>学开车，让生活有了一种掌控感</title><link>https://moonwwdz.github.io/post/learning-drive/</link><pubDate>Sat, 11 Mar 2023 11:43:49 +0800</pubDate><guid>https://moonwwdz.github.io/post/learning-drive/</guid><description>买车 自存去年 10 月份考完驾照，一直在看车。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>知否</title><link>https://moonwwdz.github.io/</link><description>Recent content on 知否</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 12 Dec 2023 02:24:55 +0000</lastBuildDate><atom:link href="https://moonwwdz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>《史蒂夫·乔布斯传》阅读记录</title><link>https://moonwwdz.github.io/post/steve-jobs-reading/</link><pubDate>Tue, 12 Dec 2023 02:24:55 +0000</pubDate><guid>https://moonwwdz.github.io/post/steve-jobs-reading/</guid><description>概述 这本书太长，涵盖了乔布斯一生的方方面面，断断续续读了一个多月，不想再通读一遍，也没有什么必要，记录一下对书中对自己有启发的一些观点，方便以后复习。
+启发 强迫别人 乔布斯有现实扭曲能力，以自己非凡的魅力去影响他人去完成自己认为不可能完成得事情。
+其实很好理解，以自身为例，工作中其实有很多事情我是能做的，但是不想去做，一方面是懒，一方面是觉得不值得。做好了是其他人的功劳，做不好是自己的锅，那还不如不做，更不用说是要自己加班去做的事情，能推就推。所以让我评估的时候，我想的都是有很多困难需要克服，试图说服别人不去做。当然也有被其他人说服，去做不想做的时候。
+但是作为领导者，就要习惯去强迫别人去做。不仅是乔布斯，艾伦马克斯也是这样的，强迫自己的员工加班赶进度，完成种种不可思议的奇迹。当时在看马克斯传记的时候，我就想，坚决不去他的手下干活，太累了。
+很多事情其实到不了拼天赋的地步，只要你能积极的去做，坚持下去都能取得不错的结果，生活中与其让其他人不停地强迫你去做，不如自己主动逼自己，不断扩展自己的能力范围，不断成长早日达到自由状态。
+公司要以产品为主 苹果以Apple2发家，以图形界面独领风骚，开始做大做强。
+乔布斯狠抓皮克斯的动画，不断创造利润，成为迪士尼董事，也成功回到苹果。
+马克斯不断改进特斯拉的工艺及自动驾驶技术。
+能获得利润的公司都是在一段时间里有一个突出的产品，帮公司赚钱，同时使公司可以发展起来，可以去接触更多的业务，扩展不同的市场，发现下一个突出产品。
+很多公司却是反着来，在公司没有盈利的情况下，不断地尝试新业务，期待找到活下去的路径，结果把自己很快折腾没了。
+这就很考验公司决策者的能力。强如乔布斯，也是有失误的时候，离开苹果做的教育用的电脑就没有市场，公司差点倒闭。
+专注力 less is more less is more 是耳熟能详的的苹果名言。
+乔布斯崇尚简洁，不仅是对产品，对生活中的所有事物都有强烈控制欲，希望其能简约，有设计感。
+产品生产线上的机器，要用他挑选的颜色，宁愿将机器重新喷漆影响准确度，也不愿放弃。
+家中的家具没有满意的，那就空荡荡的，连桌椅都没有。
+简约已经被他应用的淋漓尽致。
+如何才能做到简约？
+产品线不能多，太多选项不够简约 功能要简单易用，所有功能必须反复打磨，精简不必要的功能和操作步骤 简约，最终成为将注意力集中，不断打磨产品，改进体验，产生伟大的产品。
+但这不意味着一次只能做一件事，乔布斯同时管理着福克斯和苹果两个公司。开发产品的同时，在不断改进苹果专卖店风格。
+人无完人 在人类历史中，乔布斯是伟大的天才。但在生活中，他是一个平常人。无法将工作和生活平衡，（或许这两个不能平衡，必须有一头突出才能不平庸）。对妻子关心不够，对子女有偏爱。
+他无法将对工作的热情投入家人身上。
+他也无法控制自己的傲气和刻薄，经常伤害他人。</description></item><item><title>使用obsidian和termux在手机上写blog</title><link>https://moonwwdz.github.io/post/blog-evn-with-obsidian-and-termux/</link><pubDate>Tue, 14 Nov 2023 03:33:09 +0000</pubDate><guid>https://moonwwdz.github.io/post/blog-evn-with-obsidian-and-termux/</guid><description>一、契机 两年一次的固定换机，上部手机使用的是苹果13，用了不到两年，其实用着挺好的，就是中间出过几次没有信号的问题（换小米后还是有问题，怀疑是卡的问题）。家人打不通电话，很生气，让我赶紧换手机，正值双11，旧款手机降价力度不错，就在k70出来前买了k60。不得不说，现在的安卓比苹果好用多了，最起码新机内存16G，刷新率120，比苹果的配置高很多。用了一段事件，很少遇到后台杀进程，临时切换出去回来游览的内容还在，这是最满意的地方。
+拿着安卓手机不折腾，感觉有点浪费，就装了termux，先折腾了下通过termux远程下载twitter分享链接的视频，然后就不知道干啥了。过了段时间，突然想到的blog好久没用了，就想着能不能用起来。 、
+二、为什么这么麻烦 主要是为了解决我实际生活中如何能方便的写blog问题。
+blog程序使用的静态生成工具hugo，不想改变。hugo需要先生成模板，然后编辑完善blog内容，写完之后再编译发布。之前都是在linux系统下，用vim编辑，但这两年有了孩子后，回家基本都不开电脑了，也就没时间写东西。其实也可以克服，只要早睡早起就行，但是太懒，不适合早起。适合自己的就是晚上睡前躺在床上用手机写东西，安静、方便（有砸脸风险）。但手机上使用vim太麻烦了，所以最好有app可以编辑文档。思考再三，最终觉得这个组合比较适合我：
+termux 负责通过命令行创建文档及最后的发布 obsidian 负责友好编辑及手机端与pc端的数据同步 三、安装过程记录 1. termux termux是安卓手机上一款终端模拟器，推荐通过github 上的二进制文件安装，安装完成后执行以下命令可以创建出可同步数据的环境：
+# 初始化termux的存储，可以将termux和手机存储打通 # 执行完成后可以在termux中`~/storage/shared/`目录查看手机存储 termux-setup-storage # 将hugo的文档目录与obsian的目录关联 `ln -s /data/data/com.termux/files/home/storage/shared/Documents/hugoData /data/data/com.termux/files/home/hugo/content` 2. obsidian obsidian安装完后，新创建一个valut，目录选择Documents/hugoData。
+数据同步一直用的插件，自己的腾讯云主机做中间的转换中心。
+Self-hosted LiveSync 四、效果 丝滑。。</description></item><item><title>学开车，让生活有了一种掌控感</title><link>https://moonwwdz.github.io/post/learning-drive/</link><pubDate>Sat, 11 Mar 2023 11:43:49 +0800</pubDate><guid>https://moonwwdz.github.io/post/learning-drive/</guid><description>买车 自存去年 10 月份考完驾照，一直在看车。
 没考驾照之前，一直觉得为啥要开车，开车多累的，在路上要十分小心观察四周情况，停车还要找停车位，费劲的倒进去，公共交通多方便的。
 但自己独立了后，才发现，没有车很不方便。
 出去玩，出租车拉到地方，玩美了，回不来了，看着其他车一辆辆的驶过自己身边，有种自己很蠢的感觉。
@@ -98,7 +126,8 @@
 只能说手动挡真难开，但确实能体验到开车的乐趣。
 三、工作 容器化 这两年一直让我在搞新框架，容器化，已经好久没有正经写过代码了。</description></item><item><title>静心 凝神 细微处发力</title><link>https://moonwwdz.github.io/post/mind-with-heart/</link><pubDate>Mon, 16 Jan 2023 10:36:03 +0800</pubDate><guid>https://moonwwdz.github.io/post/mind-with-heart/</guid><description>欲速则不达 心急 总想快点做完一件事 希望立即出结果 时间是良药 不妨将目光放在整个人生中而不是当下</description></item><item><title>新年新气象</title><link>https://moonwwdz.github.io/post/init/</link><pubDate>Mon, 16 Jan 2023 09:05:51 +0800</pubDate><guid>https://moonwwdz.github.io/post/init/</guid><description>happy new year
 Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description></item><item><title>About Me</title><link>https://moonwwdz.github.io/about/</link><pubDate>Fri, 13 Jan 2023 16:07:18 +0800</pubDate><guid>https://moonwwdz.github.io/about/</guid><description>在他死之前，
+Visit the Hugo website!</description></item><item><title>About Me</title><link>https://moonwwdz.github.io/about/</link><pubDate>Fri, 13 Jan 2023 16:07:18 +0800</pubDate><guid>https://moonwwdz.github.io/about/</guid><description>读书的人,
+在他死之前，
 活过一千次人生，
 不读书的人，
 只活了一次。
