@@ -1,0 +1,20 @@
+{
+    "Regions": {
+      "901": {
+        "RegionID": 901,
+        "RegionCode": "light",
+        "RegionName": "Tencent CQ",
+        "Nodes": [
+          {
+            "Name": "901a",
+            "RegionID": 901,
+            "DERPPort": 443,
+            "HostName": "124.223.197.63",
+            "IPv4": "124.223.197.63",
+            "InsecureForTests": true
+          }
+        ]
+      }
+    }
+  }
+  
