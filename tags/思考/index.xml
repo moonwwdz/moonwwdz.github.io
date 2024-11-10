@@ -1,72 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>思考 | 王大大语录</title><link>https://moonwwdz.github.io/tags/%E6%80%9D%E8%80%83/</link><atom:link href="https://moonwwdz.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml"/><description>思考</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-cn</language><lastBuildDate>Sat, 21 Sep 2024 00:00:00 +0000</lastBuildDate><item><title>如何记笔记</title><link>https://moonwwdz.github.io/post/2024/2024-02-21-how-to-note/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/2024-02-21-how-to-note/</guid><description>&lt;p>这篇文章打算一直更新。如何记笔记还没有完全搞明白，也没有多少实践经验，需要不断的迭代升级自己的知识和能力。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>思考 | 王大大语录</title><link>https://moonwwdz.github.io/tags/%E6%80%9D%E8%80%83/</link><atom:link href="https://moonwwdz.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml"/><description>思考</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-cn</language><lastBuildDate>Sat, 21 Sep 2024 00:00:00 +0000</lastBuildDate><item><title>一寸光阴</title><link>https://moonwwdz.github.io/post/2024/09-21-what-is-time/</link><pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/09-21-what-is-time/</guid><description>&lt;p>我喜欢在飘窗上看书的习惯，是这个夏天养成的习惯。早上如果起的早，坐在飘窗上看会儿书，运气好的话还能看到朝霞，感受光线从昏暗一点点的变成明亮，天边也升起淡淡的红晕，外面的世界由安静变得吵闹，人们来来往 …&lt;/p></description></item><item><title>学习应该聚精会神还是三心二意</title><link>https://moonwwdz.github.io/post/2024/08-29-how-to-learn-effectivel/</link><pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/08-29-how-to-learn-effectivel/</guid><description>&lt;p>今天看到一个有关学习的理论，和之前自己的理解是不一致的，产生了学到新理论的感觉，值得记录一下。&lt;/p>
+&lt;p>之前一直以为学习就要专心致志，一鼓作气，把要学的一个内容一口气学完，中间可以稍作休息，但不能切换到其他的 …&lt;/p></description></item><item><title>拒绝了一个朋友的私活</title><link>https://moonwwdz.github.io/post/2024/05-06-reject-private-jobs/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/05-06-reject-private-jobs/</guid><description>&lt;p>已经有两三次了，朋友介绍了私活问我接不接，我都毫不犹豫的拒绝了。还是因为嫌麻烦，前期沟通、后期的维护都是让人比较难受的事情。&lt;/p>
+&lt;p>其实之前也看到过其他人对私活的看法，记忆比较深的是：接私活的收益与付出不相 …&lt;/p></description></item><item><title>如何记笔记</title><link>https://moonwwdz.github.io/post/2024/2024-02-21-how-to-note/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/2024-02-21-how-to-note/</guid><description>&lt;p>这篇文章打算一直更新。如何记笔记还没有完全搞明白，也没有多少实践经验，需要不断的迭代升级自己的知识和能力。&lt;/p>
 &lt;h2 id="关于笔记的困惑">关于笔记的困惑&lt;/h2>
 &lt;h3 id="不同类型的笔记如何关联">不同类型的笔记如何关联&lt;/h3>
-&lt;p>就个人而言笔记主要有两个方面，一种是读书观影引起的共鸣产生的思考，另一种完全是不需要脑子参与的收集记录。&lt;/p>
-&lt;p>展开来说，思考是我理解的大部分人说的常用笔记，包括各种闪念、灵感、总结、永久笔记等等各种类型的笔记，这种笔记可以遵守原子笔记的规则，每一条笔记是一个独立并且完整的知识点（或者说是思考中心），值得反复思考，让彼此之间产生联系。&lt;/p>
-&lt;p>但作为一个码农，有大量的收集记录类型的笔记，例如如何修改ssh配置允许 root 登录，如何优化 MySQL 的配置等等，这种笔记之间没有什么值得关联的地方，只要按照不同类型形成结构存储，下次用的时候按关键字查找出来，再按照笔记上的记录复制粘贴去执行就可以了，不需要反复阅读、思考、整理，只是作为大脑的外接U盘。&lt;/p>
-&lt;p>从开始记录笔记开始，我就一种被这两种笔记折磨，思考类型的笔记还好说，可以参考卡片笔记的方式做整理，但记录类型的笔记一直是捣乱份子，使用obsidian记录笔记，大量的零散笔记无法关联起来，在图谱中分散着孤零零的，让人看着难受，老是想让他们关联起来，但又找不到他们之间的关系，只能按照目录将它们放在不同的目录里，这让我不得不思考，这些笔记到底该如何整理，才能成为我的第二大脑？&lt;/p>
-&lt;p>这种困惑让人沮丧，慢慢的就放弃记录笔记了。直到将 tiddlywiki 用起来后，将所有的记录型笔记全部放入 wiki 中，感觉自己的负担一下减轻了。&lt;/p>
-&lt;h3 id="什么笔记值得记录该如何记录">什么笔记值得记录该如何记录&lt;/h3>
-&lt;p>记录类型的笔记搞定后，就剩思考类的笔记了，但什么值得思考，什么值得记录，又让我困惑了。&lt;/p>
-&lt;p>按照卡片笔记的方法，在阅读中需要思考的地方记录下材料名称（书名、影视名等），和让你产生思考的地方索引（书页，章节等）方便下次定位，然后记录下自己的思考内容，将这张卡片存储到需要关联的地方（或者先临时存放，之后再整理）。在用空闲的时候，随便拿出来一些卡片，温习他们找他们找出互相之间的联系，将不同的思考内容关联起来。&lt;/p>
-&lt;p>使用现代化的笔记软件，可以完成甚至是简化这个流程，但我的疑惑的是记录这个索引有什么用，我又不写论文，不需要记录出处。而且这种思考内容和原始内容是脱离的，我没法在看到笔记的同时，就知道当时是因为什么产生的思考，找到原始资料再根据索引找到对应的内容，这也太麻烦了。或者将所以看过的原始资料都收集在一个文件夹里统一管理，这样是方便查找，但我的信息输入途径太多，书籍、影视剧、文章等，维护太麻烦。&lt;/p>
-&lt;p>直到读到&lt;a href="https://sspai.com/post/69025" target="_blank" rel="noreferrer nofollow"> 渐进式笔记&lt;/a>
-才让我的困惑得到解答。&lt;/p>
-&lt;h2 id="渐进式笔记">渐进式笔记&lt;/h2>
-&lt;p>渐进式笔记需要四步：&lt;/p>
-&lt;ul>
-&lt;li>画线收集，阅读中画线，观影中摘抄的内容全部放入同一个文件中&lt;/li>
-&lt;li>对收集的内容中 &lt;strong>重点&lt;/strong> 进行加粗标记&lt;/li>
-&lt;li>对收集的内容中 &lt;strong>核心&lt;/strong> 进行高亮&lt;/li>
-&lt;li>对核心进行总结&lt;/li>
-&lt;/ul>
-&lt;h3 id="不是将所有的原始数据都收集起来">不是将所有的原始数据都收集起来&lt;/h3>
-&lt;p>这样在日常阅读的文章、书籍、影视剧，只要是感兴趣的都可以收集起来。在空闲时间进行反复阅读，产生的思考就可以单独形成一条笔记，也可以关联到原始素材&lt;/p>
-&lt;h3 id="笔记是多次思考的总结">笔记是多次思考的总结&lt;/h3>
-&lt;p>任何信息输入，不是一次就能理解到位并产生足够深入的思考，我相信勤能补拙，多次反复的阅读能达到天才阅读一次就能掌握程度的 50%（不能期待自己能达到天才的程度，人和人之间的生理差异是客观存在的，不能忽略）。&lt;/p>
-&lt;h2 id="现在使用的笔记模式">现在使用的笔记模式&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://moonwwdz.github.io/wdd.html" target="_blank" rel="noreferrer nofollow">tiddlywiki&lt;/a>
-: 记录所有操作步骤类型的笔记&lt;/li>
-&lt;li>org-roam: 收集所有的讯息，并进行思考整理，产生知识笔记，没事的时候可以随机的浏览一些笔记，思考他们之间的联系&lt;/li>
-&lt;/ul>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>记录笔记是很个人的事情，每个人的方法都不相同，网上的各种笔记教程值得参考，但不能照搬，需要找到适合自己的方式，这样才能记的愉快。&lt;/p></description></item><item><title>拒绝了一个朋友的私活</title><link>https://moonwwdz.github.io/post/2024/05-06-reject-private-jobs/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/05-06-reject-private-jobs/</guid><description>&lt;p>已经有两三次了，朋友介绍了私活问我接不接，我都毫不犹豫的拒绝了。还是因为嫌麻烦，前期沟通、后期的维护都是让人比较难受的事情。&lt;/p>
-&lt;p>其实之前也看到过其他人对私活的看法，记忆比较深的是：接私活的收益与付出不相符。私活意味着要牺牲本来就不富裕的空闲时间，每天下班都已经满身疲惫了，还要做这些需要付出大量精力的活，把自己的生活搞的鸡飞狗跳，不值当。&lt;/p>
-&lt;h2 id="空闲时间应该用来干什么">空闲时间应该用来干什么&lt;/h2>
-&lt;p>自从有了小孩后，我的空闲时间就非常有限了，每天下班回家的主要任务是要和孩子玩，晚上还要哄睡，基本上是每天都是我比孩子先睡着，醒来的时候已经是早上五点多了，所以每天的空闲时间其实只有早上醒来到吃早饭之前的这段时间，每天也就一个个小时左右。这点时间里，要背单词、看英语，还要刷Twitter。这就意味着，如果接了私活，势必会用到公司上班时间，这不能接受。
-最近孩子回老家，每天下班后的时间挺自由，但我还是不想接私活，只想好好享受一下自己的空闲时间。看看书、追追剧、坐在阳台上发发呆，让生活能慢下来。尤其是最近看了《练习的心态》这本书后，感觉自己已经不像之前那样易怒了，更得好好的珍惜自己的空闲时间。&lt;/p>
-&lt;h2 id="逃避困难-拒绝了机会">逃避困难，拒绝了机会&lt;/h2>
-&lt;p>拒绝了私活，就意味着和money说再见了，更是放弃了一次锻炼自己技术能力的机会。&lt;/p>
-&lt;p>人都是先做了决定才回给自己找理由，虽然我上面说了一大堆自己的理由，但还是无法掩盖自己逃避困难的事实。在这个公司待的感觉人已经废掉，已经不奢望自己能通过技术来维持自己将来的生活，正在积极寻找其他出路了。&lt;/p>
-&lt;h2 id="理想的副业">理想的副业&lt;/h2>
-&lt;p>虽然清楚人需要和其他人多交流，才能发现机会，抓住机会，但一直无法克服自己的心理，让自己更勇敢一点。还是喜欢坐在电脑前完成自己的创造来实现价值更适合自己。&lt;/p>
-&lt;ul>
-&lt;li>理财：比较困难，到现在还没有搞清楚基本原理&lt;/li>
-&lt;li>写代码：已经没有激情了，也没足够的技术能独自完成一个可盈利的项目&lt;/li>
-&lt;li>写文章小说：希望比较大，但自己的水平还是太菜，慢慢练习&lt;/li>
-&lt;/ul></description></item><item><title>学习应该聚精会神还是三心二意</title><link>https://moonwwdz.github.io/post/2024/08-29-how-to-learn-effectivel/</link><pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/08-29-how-to-learn-effectivel/</guid><description>&lt;p>今天看到一个有关学习的理论，和之前自己的理解是不一致的，产生了学到新理论的感觉，值得记录一下。&lt;/p>
-&lt;p>之前一直以为学习就要专心致志，一鼓作气，把要学的一个内容一口气学完，中间可以稍作休息，但不能切换到其他的学习内容，觉得换了内容后，大脑里的内容也需要切换，这就给大脑增加了额外的负担，减少里学习的效率。但是今天学习到的内容却是， &lt;strong>学习过程中需要主动的去换一下学习的内容&lt;/strong> ，通过这种方式可以加深对学习内容的记忆。这里面涉及大脑的记忆过程。&lt;/p>
-&lt;h2 id="理论">理论&lt;/h2>
-&lt;p>学习在大脑中分为两个系统或者说是两个区域&lt;/p>
-&lt;ul>
-&lt;li>长期记忆： 可以在神经元上大量的存储信息，这些神经元之间通过突触可以链接在一起，形成知识&lt;/li>
-&lt;li>工作记忆： 大脑可以同时处理的信息，这里有数量的限制，一般是出生时就形成的；即大脑能同时加载5-7个信息（知识），数量是有限的，但是每个工作记忆空间的大小却是无限的，可以只加载的一个单独信息，也可以加载一大块的相关知识&lt;/li>
-&lt;/ul>
-&lt;p>长期记忆有一个特点，在 &lt;strong>每次被读取到工作记忆空间的时候，它会被强化（加深记忆）&lt;/strong> ，这个强化就是两个信息（知识）之间联系的突触练习被加强。&lt;/p>
-&lt;p>长期记忆被提取的过程，是通过当前工作记忆里的内容所在神经元产生的突触，去连接长期记忆神经元的突触。这个过程也不是简单的一对一关系，而是一个神经元会激活与它关联的一片的神经元。&lt;/p>
-&lt;p>当持续学习同一个知识的时候，与这个知识关联的突触一直被触发的，但是缺少了触发连接的过程，这样就无法通过触发去增强突触之间的连接。&lt;/p>
-&lt;p>简单点的人话就是： 一直学单一的知识点，缺少练习唤醒这个知识点的过程，在解决问题时想不到这个知识点。&lt;/p>
-&lt;h2 id="间隔学习">间隔学习&lt;/h2>
-&lt;p>间隔学习方法可以有效的解决上面的问题。&lt;/p>
-&lt;p>大脑在专注的学习时，会持续产生一种激素物质，它会抑制大脑的活动，外在的表现就是，学习一段时间后会感觉注意力无法集中，这就是大脑激素分泌多了，需要休息一下，让大脑放松一下。去散散步做做冥想，让抑制物质吸收掉，大脑才能继续工作。&lt;/p>
-&lt;p>所以，人类天生是无法做到长时间持续学习的，要学会休息，通常建议学习时间不能超过90分钟（个人感觉45-60分钟比较合适）。&lt;/p>
-&lt;p>而且在间隔的同时，要切换不同的学习内容，让不同的学习内容可以产生联系，也锻炼了唤醒已学内容的能力。&lt;/p>
-&lt;p>这种学习方法会让人感觉到很吃力，因为唤醒记忆是一个消耗能量的过程。但人不都是在痛苦中才能成长吗？&lt;/p></description></item><item><title>一寸光阴</title><link>https://moonwwdz.github.io/post/2024/09-21-what-is-time/</link><pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate><guid>https://moonwwdz.github.io/post/2024/09-21-what-is-time/</guid><description>&lt;p>我喜欢在飘窗上看书的习惯，是这个夏天养成的习惯。早上如果起的早，坐在飘窗上看会儿书，运气好的话还能看到朝霞，感受光线从昏暗一点点的变成明亮，天边也升起淡淡的红晕，外面的世界由安静变得吵闹，人们来来往往，匆匆忙忙，仿佛我置身于两个世界的交汇处。&lt;/p>
-&lt;p>唯一让人不爽的是老大爷的晨练，不是嗷嗷叫就是把手拍的啪啪响，我在高处反而是听的清清楚楚，搞的自己有时候心烦意乱。现在的老年人总有办法把自己活成让别人讨厌甚至是痛恨的样子。&lt;/p>
-&lt;h2 id="如何理解一寸光阴一寸金">如何理解一寸光阴一寸金&lt;/h2>
-&lt;p>周六下午在飘窗上看书的时候，刚好赶上落日，太阳被一幢楼挡住了，我看着书页上的阳光突然的消失，是的，阳光不是之前想当然的觉得是一点一点消失的，它是用很快的速度眨眼间从书页上消失的，那个瞬间，我突然就明白的 `一寸光阴一寸金` 如何具象话了。&lt;/p>
-&lt;p>很多时候，当我们感觉时间还早，再等会去做也来得及，其实是低估了时间的速度，它比我们认知中的速度快的多很多。如果想感受一下时间的速度，可以站在阳光下影子的边缘，感受一下影子在自己身上移动的速度。&lt;/p></description></item><item><title>静心 凝神 细微处发力</title><link>https://moonwwdz.github.io/post/mind-with-heart/</link><pubDate>Mon, 16 Jan 2023 10:36:03 +0800</pubDate><guid>https://moonwwdz.github.io/post/mind-with-heart/</guid><description>&lt;h1 id="欲速则不达">欲速则不达&lt;/h1>
+&lt;p>就个人而言笔记主要有两个方面，一种是读书观影引起的共 …&lt;/p></description></item><item><title>静心 凝神 细微处发力</title><link>https://moonwwdz.github.io/post/mind-with-heart/</link><pubDate>Mon, 16 Jan 2023 10:36:03 +0800</pubDate><guid>https://moonwwdz.github.io/post/mind-with-heart/</guid><description>&lt;h1 id="欲速则不达">欲速则不达&lt;/h1>
 &lt;h2 id="心急">心急&lt;/h2>
 &lt;ul>
 &lt;li>总想快点做完一件事&lt;/li>
